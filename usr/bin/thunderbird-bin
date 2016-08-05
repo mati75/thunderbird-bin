@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ -e /opt/thunderbird-bin/thunderbird ]; then
+ exec /opt/thunderbird-bin/thunderbird "$@"
+else
+ xxx-terminal-emulator -e "echo 'thunderbird-bin is not installed'"
+fi

@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9), devscripts | uscan, libwww-perl,
  libpango1.0-dev, libfreetype6-dev, libfontconfig1-dev, libgdk-pixbuf2.0-dev,
  libcairo2-dev, libxrender-dev, libxext-dev, libxdamage-dev, libxfixes-dev,
  libxcomposite-dev, libasound2-dev, libx11-dev, libxt-dev
-Standards-Version: 3.9.8
+Standards-Version: 4.1.1
 
 Package: thunderbird-bin
 Architecture: amd64 i386
